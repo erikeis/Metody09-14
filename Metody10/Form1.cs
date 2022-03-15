@@ -24,12 +24,12 @@ namespace Metody10
             {
                 if (Char.IsDigit(vstup[i])) obsahujeCislo = true;
             }
-
+            soucetCifer = 0;
+            soucetSud = 0;
+            soucetLich = 0;
             if (obsahujeCislo == true)
             {
-                int soucetCifer = 0;
-                int soucetSud = 0;
-                int soucetLich = 0;
+
                 int cislo;
                 //ciferny soucet + soucet sudych a lichych cifer
                 foreach (char znak in vstup)
