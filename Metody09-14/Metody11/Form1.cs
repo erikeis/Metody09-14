@@ -28,7 +28,6 @@ namespace Metody11
                 {
                     s1.Remove(index, 1);
                 }
-                ++index;
             }
             s2 = s1;
             return pole.Length;
